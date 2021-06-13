@@ -1,0 +1,40 @@
+h2{
+  color: red;
+  text-align: center;
+  font-style: oblique;
+  font-size: 30px;
+}  
+
+p{
+    color: blue;
+    font-style:italic;
+    font-weight: inherit;
+    font-size: 20px;
+}
+
+.first-div{
+    height: 300px;
+    width: 300px; 
+    background-color:rgb(253, 1, 190); 
+    margin-left: 300px; 
+} 
+
+.first-div:hover{
+    background: red; 
+    cursor: pointer; 
+    transition: 2s; 
+}
+    
+
+.header-menu li:nth-child(even) a{
+    color: red; 
+}
+
+.footer-menu li:nth-child(odd) a{
+    color: rgb(16, 250, 82); 
+}
+
+
+div p{
+    color: orange; 
+}
